@@ -1,0 +1,8 @@
+
+.logoName {
+    font-size: clamp(1.1rem, 5vw, 1.5rem);
+}
+
+.name:hover {
+    text-decoration: underline #aaa;
+}

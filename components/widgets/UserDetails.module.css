@@ -1,0 +1,35 @@
+
+.img {
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    background-color: white;
+    position: relative;
+}
+
+.container {
+    margin: 90px 40px 0 40px;
+    z-index: 2;
+}
+
+.verifiedFont {
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+@media (max-width: 368px) {
+    .container {
+        font-size: min(1rem, 4vw);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .minimalMargin {
+        margin: 5px;
+    }
+}

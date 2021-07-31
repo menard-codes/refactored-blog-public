@@ -1,0 +1,29 @@
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: 2px 2px 10px 2px rgb(172, 172, 172);
+    background-color: cornsilk;
+    padding: 0 20px 20px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.title {
+    text-decoration: underline;
+}
+
+.summary {
+    margin: 0 0 30px 15px;
+}
+
+.line {
+    width: 100%;
+    border: dashed 1px black;
+    margin: 20px 0;
+}
+
+.greyFont {
+    color: rgb(54, 54, 54);
+}

@@ -1,0 +1,30 @@
+
+.metaData {
+    font-size: 1rem;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgb(70, 70, 70);
+    background-color: rgb(236, 236, 236);
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.author {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.dataGrouping {
+    margin-left: 10px;
+}
+
+.avatar {
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.line {
+    width: 100%;
+}
