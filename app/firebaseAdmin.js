@@ -1,5 +1,5 @@
 import * as admin from 'firebase-admin';
-import serviceAccount from 'config/codeblog-cd897-firebase-adminsdk-ii6wb-77053931ae.json';
+import serviceAccount from 'path/to/private-key';
 
 
 if (!admin.apps.length) {
